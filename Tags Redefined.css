@@ -1,0 +1,99 @@
+.theme-light .tag {
+  background-color:lavenderblush;
+  color: darkred;
+  border: solid;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 1px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 0px;
+  cursor: pointer;
+  border-radius: 14px;
+}
+
+.theme-dark .tag {
+  background-color: PaleTurquoise ;
+  color:  black;
+  border:2px solid;
+  border-color:turquoise;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 1px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 0px;
+  cursor: pointer;
+  border-radius: 14px;
+}
+
+.theme-dark .tag:before {
+    background: #000;
+    width: 10px;
+    height: 10px;
+    content: "";
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: inset 0px 2px 5px rgba(0,0,0,0.2);
+    margin: 0 5px 0 0;
+	transition: background 0.5s ease-out 200ms;
+}
+
+.theme-dark .tag:after {
+    background: #000;
+    width: 10px;
+    height: 10px;
+    content: "";
+    display: none;
+    border-radius: 20px;
+    box-shadow: inset 0px 2px 5px rgba(0,0,0,0.2);
+    margin: 0 5px;
+}
+
+.theme-light .tag:before {
+    background: darkred;
+    width: 10px;
+    height: 10px;
+    content: "";
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: inset 0px 2px 5px rgba(0,0,0,0.2);
+    margin: 0 5px 0 0;
+	transition: background 0.5s ease-out 200ms;
+} 
+
+.theme-light .tag:after {
+    background: darkred;
+    width: 10px;
+    height: 10px;
+    content: "";
+    display: none;
+    border-radius: 20px;
+    box-shadow: inset 0px 2px 5px rgba(0,0,0,0.2);
+    margin: 0 5px;
+} 
+
+
+.theme-dark .tag:hover:before { 
+	background: PaleTurquoise;
+    width: 0px;
+    height: 0px;
+	border-radius: 0px;
+}
+
+.theme-dark .tag:hover:after { 
+	display: inline-block;
+}
+
+.theme-light .tag:hover:before { 
+	background: lavenderblush;
+    width: 0px;
+    height: 0px;
+	border-radius: 0px;
+}
+
+.theme-light .tag:hover:after { 
+	display: inline-block;
+}
