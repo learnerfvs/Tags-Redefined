@@ -15,7 +15,7 @@ A CSS styling snippet for Obsidian Notes Taking app.
 ```
 .obsidian\snippets\ Folder of your harddrive. 
 ```
->  _(works on android/windows/mac. Not on ios as ios hides any folder starting with a (.) dot)_
+>  _(works on android/windows/mac. Not on ios as ios hides any folder starting with a (.) dot. Though once added, the functionality is tested to work on windows and ios (ipad).)_
 - Open Obsidian. Go to Settings -> Appearance -> CSS Snippets.
 - If the "Tags Redefined" snippet is not already listed, click the refresh icon next to CSS Snippets.  
 - Turn on the Tags Redefined switch. 
